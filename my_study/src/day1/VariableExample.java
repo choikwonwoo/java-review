@@ -1,5 +1,7 @@
 package day1;
 
+import java.util.Scanner;
+
 public class VariableExample {
     public static void main(String[] args){
         int x = 10;
@@ -10,5 +12,6 @@ public class VariableExample {
         x = y;
         y = temp;
         System.out.println(x +"," +  y +","+ temp);
+
     }
 }
